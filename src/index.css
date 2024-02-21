@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.button1 {
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+.button2 {
+  padding: 10px 20px;
+  background-color: chartreuse;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.deneme {
+  border: 1px solid;
+  padding: 4rem;
+}

@@ -1,5 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import Button2 from './button2.js'
+import Profile from './profile.js';
+import Deneme from './deneme.js';
+import EditProfile from './deneme2.js';
+import Input from './input.js';
 
 function App() {
   return (
@@ -17,9 +22,28 @@ function App() {
         >
           Learn React
         </a>
+        <hr />
+        <button className="button1">Yollaaaa</button>
+        <hr />
+        <Button2 />
+        <hr />
+        <Profile title={sayi2}/>
+        <Deneme />
+        <br />
+        {/*}<EditProfile />{*/}
+        <br />
+        <Input />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
       </header>
     </div>
   );
 }
+
+let sayi2 = 'Yallaa yallllaaa';
 
 export default App;
